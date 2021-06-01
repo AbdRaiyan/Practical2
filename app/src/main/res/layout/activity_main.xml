@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:textSize="35sp"
-                android:text="Animals? Which ones?"/>
+                android:text="@string/animals_which_ones"/>
 
 
             <View
@@ -47,7 +47,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="CamelDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/camelus" />
 
                 <Button
                     android:id="@+id/buttonChange1"
@@ -82,7 +83,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="CatfishDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/silurus_glanis" />
 
                 <Button
                     android:id="@+id/buttonChange2"
@@ -117,7 +119,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="ChameleonDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/chamaeleonidae" />
 
                 <Button
                     android:id="@+id/buttonChange3"
@@ -152,7 +155,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="CheetahDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/acinonyx_jubatus" />
 
                 <Button
                     android:id="@+id/buttonChange4"
@@ -187,7 +191,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="ChickenDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/gallus_gallus_domesticus" />
 
                 <Button
                     android:id="@+id/buttonChange5"
@@ -222,7 +227,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="DachshundDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/dog" />
 
                 <Button
                     android:id="@+id/buttonChange6"
@@ -257,7 +263,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="DalmationDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/dog" />
 
                 <Button
                     android:id="@+id/buttonChange7"
@@ -292,7 +299,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="DeerDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/cervidae" />
 
                 <Button
                     android:id="@+id/buttonChange8"
@@ -327,7 +335,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
-                    android:text="DingoDesc" />
+                    android:textStyle="italic"
+                    android:text="@string/canis_lupus_dingo" />
 
                 <Button
                     android:id="@+id/buttonChange9"

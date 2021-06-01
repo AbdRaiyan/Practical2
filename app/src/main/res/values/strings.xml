@@ -10,4 +10,34 @@
     <string name="dalmatian">Dalmatian</string>
     <string name="deer">Deer</string>
     <string name="dingo">Dingo</string>
+    <string name="animals_which_ones">Animals? Which ones?</string>
+    <string name="camelus">Camelus</string>
+    <string name="silurus_glanis">Silurus glanis</string>
+    <string name="chamaeleonidae">Chamaeleonidae</string>
+    <string name="acinonyx_jubatus">Acinonyx jubatus</string>
+    <string name="gallus_gallus_domesticus">Gallus gallus domesticus</string>
+    <string name="dog">Dog</string>
+    <string name="cervidae">Cervidae</string>
+    <string name="canis_lupus_dingo">Canis lupus dingo</string>
+    <string name="title_activity__camel">Activity_Camel</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity__catfish">Activity_Catfish</string>
+    <string name="title_activity__chameleon">Activity_Chameleon</string>
+    <string name="title_activity__cheetah">Activity_Cheetah</string>
+    <string name="title_activity__chicken">Activity_Chicken</string>
+    <string name="title_activity__dachshund">Activity_Dachshund</string>
+    <string name="title_activity__dalmatian">Activity_Dalmatian</string>
+    <string name="title_activity__deer">Activity_Deer</string>
+    <string name="title_activity__dingo">Activity_Dingo</string>
+    <string name="title_activity_camel">Camel</string>
+    <string name="description">Description</string>
+    <string name="returner">Return</string>
+    <string name="link_for_more">Link for more!</string>
 </resources>
