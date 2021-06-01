@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="camel">Camel</string>
+    <string name="click_to_learn_more">Click to Learn more!</string>
+    <string name="catfish">Catfish</string>
+    <string name="chameleon">Chameleon</string>
+    <string name="cheetah">Cheetah</string>
+    <string name="chicken">Chicken</string>
+    <string name="dachshund">Dachshund</string>
+    <string name="dalmatian">Dalmatian</string>
+    <string name="deer">Deer</string>
+    <string name="dingo">Dingo</string>
+</resources>
