@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
         btnCatFish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this,Catfish.class);
+                startActivity(intent);
             }
         });
 

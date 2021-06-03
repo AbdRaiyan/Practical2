@@ -40,4 +40,5 @@
     <string name="description">Description</string>
     <string name="returner">Return</string>
     <string name="link_for_more">Link for more!</string>
+    <string name="title_activity_catfish">Catfish</string>
 </resources>
