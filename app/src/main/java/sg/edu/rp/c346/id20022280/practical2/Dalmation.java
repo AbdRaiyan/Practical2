@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Chameleon extends AppCompatActivity {
+public class Dalmation extends AppCompatActivity {
 
     TextView tvDescript;
     Button btnReturn;
@@ -23,7 +23,7 @@ public class Chameleon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chameleon);
+        setContentView(R.layout.activity_dalmation);
 
         tvDescript = findViewById(R.id.textViewDescription);
         btnReturn = findViewById(R.id.buttonReturn);
@@ -31,15 +31,17 @@ public class Chameleon extends AppCompatActivity {
 
         registerForContextMenu(tvDescript);
 
-        tvDescript.setText("Chameleons are animals that are found throughout jungle and desert alike, " +
-                "in Africa, Asia, and parts of Southern Europe, and chameleons have also been introduced " +
-                "to parts of North America. Most of these lizards live in trees or in bushes. " +
-                "Only a few species live on the ground under piles of leaves.");
+        tvDescript.setText("A Dalmatian’s white coat with black spots makes it immediately recognizable. " +
+                "This breed is known for its sensitive temperament and high energy level. It belongs to the non-sporting group." +
+                "One of the lesser-known facts about this dog breed is it got its name from a coastal area in Austria called Dalmatia. " +
+                "Descended from pointers, Dalmatians were used as coach dogs in 19th century Europe. " +
+                "Coach dogs moved alongside horse-drawn carriages occupied by members of British noble families. " +
+                "Fortunately, Dalmatians were known to get along well with horses!");
 
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentReturn = new Intent(Chameleon.this,MainActivity.class);
+                Intent intentReturn = new Intent(Dalmation.this,MainActivity.class);
                 startActivity(intentReturn);
             }
         });
@@ -47,7 +49,7 @@ public class Chameleon extends AppCompatActivity {
         btnLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/chameleon/"));
+                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/dalmatian/"));
                 startActivity(intentLink);
             }
         });
@@ -78,4 +80,3 @@ public class Chameleon extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 }
-

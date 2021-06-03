@@ -31,10 +31,16 @@ public class Cheetah extends AppCompatActivity {
 
         registerForContextMenu(tvDescript);
 
-        tvDescript.setText("Chameleons are animals that are found throughout jungle and desert alike, " +
-                "in Africa, Asia, and parts of Southern Europe, and chameleons have also been introduced " +
-                "to parts of North America. Most of these lizards live in trees or in bushes. " +
-                "Only a few species live on the ground under piles of leaves.");
+        tvDescript.setText("The Cheetah is a large and powerful feline that was once found throughout " +
+                "Africa and Asia and even in parts of Europe. Today however, it is found in only a few " +
+                "remote regions of its once vast natural range, primarily due to growing Human settlements " +
+                "and the hunting of them for their fur. There are widely considered to be five different " +
+                "subspecies of Cheetah that vary only very slightly in colouration and are most easily " +
+                "distinguished by their geographic location. Although they are not considered to be part " +
+                "of the ‘big cat’ family as they cannot roar, Cheetahs are one of Africa‘s most powerful " +
+                "predators and are most renowned for their immense speed when in a chase. " +
+                "Capable of reaching speeds of more than 60mph for short periods of time, the Cheetah is the " +
+                "fastest land mammal in the world.");
 
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,7 +53,7 @@ public class Cheetah extends AppCompatActivity {
         btnLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/catfish/"));
+                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/cheetah/"));
                 startActivity(intentLink);
             }
         });

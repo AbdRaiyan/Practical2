@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Chameleon extends AppCompatActivity {
+public class Chicken extends AppCompatActivity {
 
     TextView tvDescript;
     Button btnReturn;
@@ -23,7 +23,7 @@ public class Chameleon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chameleon);
+        setContentView(R.layout.activity_chicken);
 
         tvDescript = findViewById(R.id.textViewDescription);
         btnReturn = findViewById(R.id.buttonReturn);
@@ -31,15 +31,16 @@ public class Chameleon extends AppCompatActivity {
 
         registerForContextMenu(tvDescript);
 
-        tvDescript.setText("Chameleons are animals that are found throughout jungle and desert alike, " +
-                "in Africa, Asia, and parts of Southern Europe, and chameleons have also been introduced " +
-                "to parts of North America. Most of these lizards live in trees or in bushes. " +
-                "Only a few species live on the ground under piles of leaves.");
+        tvDescript.setText("There are hundreds of different chicken breeds and classifications. " +
+                "They are distinguished from each other by many characteristics, including the following: " +
+                "the place of origin, skin color, plumage color, size, comb type, number of toes, " +
+                "egg coloring, and amount of feathering. In general, however, the chicken is a squat bird with a rounded " +
+                "appearance. Typically, they stand no more than 27.6 inches tall, and they weigh around 5.7 pounds on average.");
 
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentReturn = new Intent(Chameleon.this,MainActivity.class);
+                Intent intentReturn = new Intent(Chicken.this,MainActivity.class);
                 startActivity(intentReturn);
             }
         });
@@ -47,7 +48,7 @@ public class Chameleon extends AppCompatActivity {
         btnLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/chameleon/"));
+                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/chicken/"));
                 startActivity(intentLink);
             }
         });
@@ -78,4 +79,3 @@ public class Chameleon extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 }
-

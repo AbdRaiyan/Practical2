@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
-        <activity android:name=".Cheetah"></activity>
+        <activity android:name=".Dingo"></activity>
+        <activity android:name=".Deer" />
+        <activity android:name=".Dalmation" />
+        <activity android:name=".Dachshund" />
+        <activity android:name=".Chicken" />
+        <activity android:name=".Cheetah" />
         <activity android:name=".Chameleon" />
-        <activity android:name=".Catfish"/>
-        <activity android:name=".Camel"/>
+        <activity android:name=".Catfish" />
+        <activity android:name=".Camel" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

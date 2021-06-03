@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Chameleon extends AppCompatActivity {
+public class Dachshund extends AppCompatActivity {
 
     TextView tvDescript;
     Button btnReturn;
@@ -23,7 +23,7 @@ public class Chameleon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chameleon);
+        setContentView(R.layout.activity_dachshund);
 
         tvDescript = findViewById(R.id.textViewDescription);
         btnReturn = findViewById(R.id.buttonReturn);
@@ -31,15 +31,14 @@ public class Chameleon extends AppCompatActivity {
 
         registerForContextMenu(tvDescript);
 
-        tvDescript.setText("Chameleons are animals that are found throughout jungle and desert alike, " +
-                "in Africa, Asia, and parts of Southern Europe, and chameleons have also been introduced " +
-                "to parts of North America. Most of these lizards live in trees or in bushes. " +
-                "Only a few species live on the ground under piles of leaves.");
+        tvDescript.setText("The doxie, or dachshund, is a scent hound bred to hunt badgers, foxes, rabbits, " +
+                "and other tunneling animals. They were known at one time to trail wild boar when trained by " +
+                "hunters. This versatile breed is a great family pet, small-game hunter, and even an excellent show dog.");
 
         btnReturn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentReturn = new Intent(Chameleon.this,MainActivity.class);
+                Intent intentReturn = new Intent(Dachshund.this,MainActivity.class);
                 startActivity(intentReturn);
             }
         });
@@ -47,7 +46,7 @@ public class Chameleon extends AppCompatActivity {
         btnLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/chameleon/"));
+                Intent intentLink = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/dalmatian/"));
                 startActivity(intentLink);
             }
         });
@@ -78,4 +77,3 @@ public class Chameleon extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 }
-
