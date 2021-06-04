@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
-        <activity android:name=".Dingo"></activity>
+        <activity android:name=".Dodo"></activity>
+        <activity android:name=".Dingo" />
         <activity android:name=".Deer" />
         <activity android:name=".Dalmation" />
         <activity android:name=".Dachshund" />

@@ -346,6 +346,44 @@
                     android:text="@string/click_to_learn_more" />
             </LinearLayout>
 
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewTitle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="30sp"
+                    android:text="@string/dodo" />
+
+                <TextView
+                    android:id="@+id/textViewAnimDesc10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:text="@string/raphus_cucullatus" />
+
+                <Button
+                    android:id="@+id/buttonChange10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/click_to_learn_more" />
+
+            </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 

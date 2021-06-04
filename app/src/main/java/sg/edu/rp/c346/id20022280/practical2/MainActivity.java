@@ -18,16 +18,29 @@ public class MainActivity extends AppCompatActivity {
     Button btnDalm;
     Button btnDeer;
     Button btnDingo;
+    Button btnDodo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btnCamel = findViewById(R.id.buttonChange1);
+        btnCatFish = findViewById(R.id.buttonChange2);
+        btnChmln = findViewById(R.id.buttonChange3);
+        btnCheth = findViewById(R.id.buttonChange4);
+        btnChick = findViewById(R.id.buttonChange5);
+        btnDachs = findViewById(R.id.buttonChange6);
+        btnDalm  = findViewById(R.id.buttonChange7);
+        btnDeer = findViewById(R.id.buttonChange8);
+        btnDingo = findViewById(R.id.buttonChange9);
+        btnDodo = findViewById(R.id.buttonChange10);
+
+
         btnCamel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Camel.class);
+                Intent intent = new Intent(MainActivity.this, Camel.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         btnCatFish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Catfish.class);
+                Intent intent = new Intent(MainActivity.this, Catfish.class);
                 startActivity(intent);
             }
         });
@@ -43,13 +56,17 @@ public class MainActivity extends AppCompatActivity {
         btnChmln.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this,Chameleon.class);
+                startActivity(intent);
             }
+
         });
 
         btnCheth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Cheetah.class);
+                startActivity(intent);
 
             }
         });
@@ -57,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         btnChick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Chicken.class);
+                startActivity(intent);
 
             }
         });
@@ -64,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
         btnDachs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Dachshund.class);
+                startActivity(intent);
 
             }
         });
@@ -71,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
         btnDalm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Dalmation.class);
+                startActivity(intent);
 
             }
         });
@@ -78,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         btnDeer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Deer.class);
+                startActivity(intent);
 
             }
         });
@@ -85,7 +110,17 @@ public class MainActivity extends AppCompatActivity {
         btnDingo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Dingo.class);
+                startActivity(intent);
 
+            }
+        });
+
+        btnDodo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Dodo.class);
+                startActivity(intent);
             }
         });
     }

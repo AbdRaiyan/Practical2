@@ -41,4 +41,6 @@
     <string name="returner">Return</string>
     <string name="link_for_more">Link for more!</string>
     <string name="title_activity_catfish">Catfish</string>
+    <string name="raphus_cucullatus">Raphus cucullatus</string>
+    <string name="dodo">Dodo</string>
 </resources>
